@@ -31,6 +31,7 @@ const getImages = function (endpoint) {
               </a>`;
                 }
                 html += updatedHtml;
+                console.log(updatedHtml);
             });
             document.getElementById("photoContainer").innerHTML = html;
         });
